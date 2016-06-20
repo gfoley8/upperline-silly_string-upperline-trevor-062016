@@ -21,4 +21,4 @@ puts "wow" + "mom"
 puts "i really like programming".capitalize
 
 #7 Replace all "A" with "O" and "a" with "o" by chaining together `gsub`
-puts "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
+puts "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub("A","O").gsub("a","o")
